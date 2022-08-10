@@ -1,0 +1,232 @@
+.scale_dapp_section {
+    margin: 5em 0em;
+
+    .container {
+        box-shadow: 0px 15px 20px rgb(128 128 128 / 24%);
+
+        .scale_dapp_container {
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 50px;
+
+            .scale_dapp_content {
+                h2 {
+                    // font-weight: 900;
+                    -webkit-text-stroke: 1px;
+                    font-size: 2.5em;
+                }
+
+                p {
+                    margin-top: 2em;
+                    margin-bottom: 4em;
+                }
+
+                .dApp_now_btn {
+                    text-decoration: none;
+                    color: white;
+                    width: 12px;
+                    background: rgba(123, 63, 228);
+                    padding: 15px 25px;
+                    border-radius: 50px;
+                    // font-weight: 900;
+                }
+            }
+        }
+
+        .scale_dapp_marquee_contanier {
+            height: 500px;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+
+            .scale_dapp_img {
+                position: relative;
+
+                .shade {
+                    background: linear-gradient(90deg, #fff, hsla(0, 0%, 100%, .98) 18.23%, hsla(0, 0%, 100%, .911052) 37.83%, hsla(0, 0%, 100%, .776042) 67.38%, hsla(0, 0%, 100%, 0));
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 10;
+                    height: 100%;
+                    width: 219px;
+                }
+
+                .dapp_marquee_text_wrap {
+                    overflow: hidden;
+
+                    .dapp_marquee_text_content {
+                        width: 100000px;
+
+                        .dapp_marquee_text_text {
+                            animation-duration: 40s;
+                            animation-timing-function: linear;
+                            animation-iteration-count: infinite;
+                            float: left;
+                            animation-name: marquee-text-animation;
+                            position: relative;
+
+                            @keyframes marquee-text-animation {
+                                from {
+                                    right: 0px;
+                                }
+
+                                to {
+                                    right: 779px;
+                                }
+                            }
+
+                            .dapp_marquee_img {
+                                object-fit: cover;
+                                width: 779px;
+                                height: 384px;
+                            }
+                        }
+                    }
+                }
+
+                .explore {
+                    position: absolute;
+                    top: 36%;
+                    left: 200px;
+
+                    div {
+                        padding: 50px;
+                        background-color: hsla(0, 0%, 100%, .6);
+                        border-radius: 63px;
+                        backdrop-filter: blur(24px);
+                        z-index: 1;
+
+
+                        a {
+                            text-decoration: none;
+                            color: white;
+                            width: 12px;
+                            background: rgba(123, 63, 228);
+                            padding: 15px 25px;
+                            border-radius: 50px;
+                            // font-weight: 900;    
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+}
+
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+    .scale_dapp_section {
+        .container {
+            .scale_dapp_container {
+                padding: 0px 5px;
+                text-align: center;
+
+                .scale_dapp_content {
+                    h2 {
+                        font-size: 2.1em;
+                    }
+
+                    p {
+                        margin-top: 1em;
+                        margin-bottom: 3em;
+                        font-size: 15px;
+                    }
+
+                    .dApp_now_btn {
+                        padding: 12px 15px;
+                    }
+                }
+            }
+
+            .scale_dapp_marquee_contanier {
+                .scale_dapp_img {
+                    position: relative;
+
+                    .shade {
+                        width: 133px;
+                    }
+
+                    .explore {
+                        left: 106px;
+
+                        div {
+                            backdrop-filter: blur(24px);
+                            z-index: 1;
+                        }
+
+
+                    }
+                }
+            }
+        }
+
+    }
+
+}
+
+@media screen and (min-device-width: 375px) and (max-device-width: 425px) {
+    .scale_dapp_section {
+        .container {
+            .scale_dapp_container {
+                text-align: center;
+            }
+
+            .scale_dapp_marquee_contanier {
+                height: 350px;
+
+                .scale_dapp_img {
+                    .shade {
+                        width: 0px;
+                    }
+
+                    .explore {
+                        left: 68px;
+
+                        div {
+                            backdrop-filter: blur(24px);
+                            z-index: 1;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+
+@media screen and (max-device-width: 320px) {
+    .scale_dapp_section {
+        .container {
+            .scale_dapp_container {
+                text-align: center;
+            }
+
+            .scale_dapp_marquee_contanier {
+                height: 350px;
+
+                .scale_dapp_img {
+                    .shade {
+                        width: 0px;
+                    }
+
+                    .explore {
+                        left: 19px;
+
+                        div {
+                            backdrop-filter: blur(24px);
+                            z-index: 1;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

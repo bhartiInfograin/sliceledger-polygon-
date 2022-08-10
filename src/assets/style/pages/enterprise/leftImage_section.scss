@@ -1,0 +1,133 @@
+.leftImageSection {
+    background-color: rgb(233 236 239 / 15%);
+    height: 654px;
+    padding-top: 55px;
+
+
+    .leftImageSection_content {
+        height: 536px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+        h1 {
+            font-weight: bold;
+
+            span {
+                color: #7f177a;
+                ;
+            }
+        }
+
+        p {
+            margin-top: 17px;
+            font-size: 21px;
+        }
+    }
+
+
+    .image_holder {
+        border-radius: 33px;
+        margin-right: 44px;
+        box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    }
+
+
+}
+
+
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .leftImageSection {
+        height: 502px;
+
+        .leftImageSection_content {
+            height: 381px;
+
+            h1 {
+
+                font-size: 36px;
+
+            }
+
+            p {
+
+                font-size: 17px;
+            }
+        }
+
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    .leftImageSection {
+        height: auto;
+        padding-top: 43px;
+
+        .leftImageSection_content {
+            height: auto;
+            text-align: center;
+            margin-top: 46px;
+            padding: 22px;
+
+            h1 {
+                font-size: 33px;
+            }
+
+            p {
+                margin-top: 8px;
+                font-size: 16px;
+                text-align: justify;
+            }
+        }
+
+
+        .image_holder {
+            text-align: center;
+            margin-right: 0px;
+        }
+    }
+}
+
+@media screen and (max-device-width:319px) {
+    .leftImageSection {
+        background-color: rgb(233 236 239 / 15%);
+        height: auto;
+        padding-top: 55px;
+
+
+        .leftImageSection_content {
+            height:auto;
+            text-align: center;
+
+
+            h1 {
+            font-size: 23px;
+
+                span {
+                    color: #7f177a;
+                    ;
+                }
+            }
+
+            p {
+                margin-top: 0px;
+                font-size: 14px;
+                text-align: justify;
+                padding: 13px;
+            }
+        }
+
+
+        .image_holder {
+            border-radius: 33px;
+            margin-right: 0px;
+            box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+        }
+
+
+    }
+
+
+}
