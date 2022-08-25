@@ -41,7 +41,7 @@ export default function AboutUs() {
                                         <span>SLICELEDGER</span> Blockchain
                                     </h1>
                                     <p>
-                                        Sliceledger Blockchain is a public, permissionless, Ethereum Virtual Machine (EVM) compatible blockchain running on the world’s leading Proof-of-Stake Voting consensus mechanism. The Sliceledger blockchain is open to the public, allowing participants from around the world to join in to secure and verify the record reflect accurate state of affairs.
+                                        Sliceledger Blockchain is a public, permissionless, Ethereum Virtual Machine (EVM) compatible blockchain running on the world’s leading Proof-of-Stake and Proof-of-play consensus mechanism. The Sliceledger blockchain is open to the public, allowing participants from around the world to join in to secure and verify the record reflect accurate state of affairs.
                                     </p>
                                    
                                 </div>

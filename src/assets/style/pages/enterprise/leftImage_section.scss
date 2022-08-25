@@ -24,6 +24,44 @@
             margin-top: 17px;
             font-size: 21px;
         }
+
+.storediv{
+
+    margin-top: 22px;
+    .appstoreImg{
+        width: 165px;
+        height: auto;
+    }
+
+    .playstoreImg{
+        width: 178px;
+        height: auto;
+        margin-left: 16px;
+    }
+}
+
+
+        
+
+        .websitelink{
+            font-size: 19px;
+            padding: 5px 36px;
+            border-radius: 24px;
+            background: white;
+            border: 1px solid #a30b9d;
+            margin-top: 15px;
+            color: rgba(0, 0, 0, 0.8);
+            width: 230px;
+            text-decoration: none;
+            text-align: center;
+
+
+            &:hover{
+                background: linear-gradient(45deg, #7c14ef, #a30b9d);
+                color: white;
+            }
+        }
+
     }
 
 
@@ -98,12 +136,12 @@
 
 
         .leftImageSection_content {
-            height:auto;
+            height: auto;
             text-align: center;
 
 
             h1 {
-            font-size: 23px;
+                font-size: 23px;
 
                 span {
                     color: #7f177a;

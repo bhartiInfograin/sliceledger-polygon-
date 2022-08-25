@@ -11,19 +11,19 @@ export default function FeatureSection() {
                             <div className='feature_content'>
                                 <div className='feature_marque'>
                                     <div className='marque_content'>
-                                        <b>0.000021</b>
+                                        <b>0.000018</b>
                                         <p>Min. cost per transaction </p>
                                     </div>
                                     <div className='marque_content'>
-                                        <b>2s</b>
+                                        <b>1.5s</b>
                                         <p>Block Time</p>
                                     </div>
                                     <div className='marque_content'>
-                                        <b>540B</b>
+                                        <b>620B</b>
                                         <p>Block Size</p>
                                     </div>
                                     <div className='marque_content'>
-                                        <b>2s</b>
+                                        <b>1.5s</b>
                                         <p>Transaction Time</p>
                                     </div>
                                 </div>

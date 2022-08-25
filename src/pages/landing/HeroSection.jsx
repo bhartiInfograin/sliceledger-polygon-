@@ -21,8 +21,8 @@ export default function HeroSection() {
                                 <Col lg={12} className="p-5">
                                     <div className='hero_content'>
                                         <div className='hero_details'>
-                                            <h1>Bringing the world to Ethereum</h1>
-                                            <p>Sliceledger believes in Web3 for all. Sliceledger is a decentralised Ethereum scaling platform that enables developers to build scalable user-friendly dApps with low transaction fees without ever sacrificing on security.</p>
+                                            <h1>The Most Anticipated Blockchain Network</h1>
+                                            <p>The world's first decentralised and permissionless ecosystem offers the Blockchain stream various opportunities and innovations, attracting developers, innovators, artists, businesses, and other stakeholders. Sliceledger offers a number of communities to join, develop, and grow.</p>
                                             <div className='doucumentation'>
                                             <a href='https://slice-ledger.gitbook.io/sliceledger/' target="_blank">Documentation</a>
                                             </div>

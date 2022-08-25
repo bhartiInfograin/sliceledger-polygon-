@@ -14,7 +14,7 @@ export default function Research() {
                         <Col lg={12}>
                             <div className='research_sub_section'>
                              <h4>White Paper</h4>
-                             <p>This paper proposes a new blockchain architecture based on Proof of Stake Voting. SliceLedgerChain vision of lowering the barrier and enabling established businesses with blockchain technology to create value and solve real-world economic problems.</p>
+                             <p>This paper proposes a new blockchain architecture based on Proof of Stake and Proof of Play. SliceLedgerChain vision of lowering the barrier and enabling established businesses with blockchain technology to create value and solve real-world economic problems.</p>
                             <button>White Paper</button>
                             </div>
                         </Col>

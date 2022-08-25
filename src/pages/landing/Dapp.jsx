@@ -66,7 +66,7 @@ export default function Dapp() {
                             <div className='dapp_content_section wow slideInRight'>
                                 <h1><span>SLICELEDGER</span>   Build Limitless dApps on</h1>
                                 <p>
-                                    SliceledgerChain is built for the next generation of apps that enables developers to build scalable user-friendly dApps with low transaction fees without ever sacrificing security. Sliceledger is creating the best network for Web3 developers with flexible deployment, seamless interoperability, and incredible on-chain incentives. Be a part of this revolution and Let's start #BuildOnSliceledger .
+                                    SliceledgerChain is built for the next generation of apps that enables developers to build scalable user-friendly dApps with low transaction fees without ever sacrificing security. Sliceledger is creating the best network for Web3 developers with flexible deployment, seamless interoperability, and incredible on-chain incentives. 
                                 </p>
 
                                 <div className="developer_link">

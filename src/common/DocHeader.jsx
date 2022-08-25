@@ -23,14 +23,14 @@ export default function Header() {
               <Navbar.Toggle className='menu_bar' aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="my-2 me-5 my-lg-0">
-                <Link to="/research" className='custom_link6 nav-link'>Research</Link>
+                <Link to="/research" className='custom_link6 nav-link'>WhitePaper</Link>   
                   <a className='custom_link6 nav-link' href='https://slice-ledger.gitbook.io/sliceledger/api' target="_blank">Developers</a>
-                  <Link to="/enterprise" className='custom_link6 nav-link'>Enterprise</Link>
-                  <Link to="/network" className='custom_link4 nav-link'>Network</Link>
+                  <Link to="/enterprise" className='custom_link6 nav-link'>Products</Link>
+                  {/* <Link to="/network" className='custom_link4 nav-link'>Network</Link> */}
                   <a className='custom_link6 nav-link' href='https://slice-ledger.gitbook.io/sliceledger/' target="_blank">Docs</a>
                 </Nav>
                 <Nav className='headerbutton_nav'>
-                  <a className='headerbutton' href='https://slice-ledger.gitbook.io/sliceledger/api' target="_blank">#BuildwithSliceLedger</a>
+                  <a className='headerbutton' href='https://slice-ledger.gitbook.io/sliceledger/api' target="_blank">Build with SliceLedger</a>
                 </Nav>
 
               </Navbar.Collapse>

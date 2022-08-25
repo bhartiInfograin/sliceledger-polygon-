@@ -21,22 +21,22 @@ export default function RightImageSection(props) {
             <Container>
                 <Row >
                     <Col lg={6} md={{ order: 'first' }} xs={{ order: 'first' }}>
-                        {/* <div data-aos="fade-right"> */}
+               
                             <div className='rightImageSection_content wow slideInLeft'>
                             <h1><span>{props.headpart1}</span> {props.headpart2}</h1>
                                 <p>
-                                {/* SliceLedger Web Wallet is Available on the website. SliceLedgerChain equips you with a key vault, secure login, token wallet, and token exchange everything you need to manage your digital assets. SliceLedger provides the simplest yet most secure way to connect to the wallet. SliceLedger Wallet generates passwords and keys on your device, so only you have access to your accounts and data. You always choose what to share and what to keep private. */}
                                {props.content}
                                 </p>
+                                <a href={props.btnLink} target="_blank">{props.btnContent}</a>
                             </div>
-                        {/* </div> */}
+
                     </Col>
                     <Col lg={6} md={{ order: 'last' }} xs={{ order: 'last' }}>
-                        {/* <div data-aos="fade-left"> */}
+                      
                         <div className='image_holder wow slideInRight'>
                                 <Image fluid src={props.sectioimg} alt="img" />
-                            </div>
-                        {/* </div> */}
+                        </div>
+               
                     </Col>
                 </Row>
             </Container>
