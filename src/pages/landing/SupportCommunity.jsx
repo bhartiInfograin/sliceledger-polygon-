@@ -20,7 +20,7 @@ export default function SupportCommunity() {
 
                             <div data-aos="fade-up">
                                 <div className='supportCommunity_head'>
-                                    <h1>Join the fastest-growing ecosystem in crypto across DeFi, Web3, and NFTs</h1>
+                                    <h2>Join the fastest-growing ecosystem in crypto across DeFi, Web3, and NFTs</h2>
                                 </div>
                             </div>
                         </Col>

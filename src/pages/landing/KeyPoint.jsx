@@ -22,7 +22,7 @@ export default function KeyPoint() {
                         <Row>
                             <Col lg={12} md={12}>
                                 <div className='keyPoint_head'>
-                                    <h1><span>SLICELEDGER</span> makes Ethereum accessible for all</h1>
+                                    <h2><span>SLICELEDGER</span> makes Ethereum accessible for all</h2>
                                 </div>
                             </Col>
                         </Row>

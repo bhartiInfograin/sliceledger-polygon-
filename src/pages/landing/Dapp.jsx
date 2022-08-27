@@ -1,15 +1,9 @@
 import React, { useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import AOS from "aos";
 import "aos/dist/aos.css";
 import { WOW } from "wowjs";
 export default function Dapp() {
 
-    // useEffect(() => {
-    //     AOS.init({
-    //         duration: 1000
-    //     });
-    // }, [])
     useEffect(() => {
         const wow = new WOW({ live: false });
         wow.init()
@@ -24,7 +18,6 @@ export default function Dapp() {
                 <Container>
                     <Row>
                         <Col lg={6} md={12}>
-                            {/* <div data-aos="fade-right"> */}
                             <div className='dapp_code_section wow slideInLeft'>
                                 <div className="line1">
                                     <span className='red'>pragma solidity</span> <span className="blue">^</span><span className='green'>0.7.0</span>;
@@ -57,14 +50,13 @@ export default function Dapp() {
                                     addressProvider <span className="blue">=</span> <span className="dark_blue">SliceLedgerMProvider</span>&#40;_addressProv
                                 </div>
                             </div>
-                            {/* </div> */}
+                       
 
 
                         </Col>
                         <Col lg={6} md={12}>
-                            {/* <div data-aos="fade-left"> */}
                             <div className='dapp_content_section wow slideInRight'>
-                                <h1><span>SLICELEDGER</span>   Build Limitless dApps on</h1>
+                                <h2><span>SLICELEDGER</span>   Build Limitless dApps on</h2>
                                 <p>
                                     SliceledgerChain is built for the next generation of apps that enables developers to build scalable user-friendly dApps with low transaction fees without ever sacrificing security. Sliceledger is creating the best network for Web3 developers with flexible deployment, seamless interoperability, and incredible on-chain incentives. 
                                 </p>
@@ -72,10 +64,7 @@ export default function Dapp() {
                                 <div className="developer_link">
                                     <a href='https://slice-ledger.gitbook.io/sliceledger/developer-guide' target="_blank">Developer Guide</a>
                                 </div>
-
                             </div>
-                            {/* </div> */}
-
                         </Col>
                     </Row>
                 </Container>

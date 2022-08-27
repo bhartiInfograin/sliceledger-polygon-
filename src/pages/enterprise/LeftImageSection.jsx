@@ -30,7 +30,7 @@ export default function LeftImageSection(props) {
                     <Col lg={{ span: 6, order: 'last' }} md={{ order: 'first' }} xs={{ order: 'first' }}>
 
                         <div className='leftImageSection_content wow slideInRight'>
-                            <h1><span>{props.headpart1}</span> {props.headpart2}</h1>
+                            <h2><span>{props.headpart1}</span> {props.headpart2}</h2>
                             <p>
                                 {props.content}
                             </p>
