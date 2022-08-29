@@ -8,7 +8,7 @@ export default function HeroSection(props) {
   return (
     <>
       <section className='enterprise_heroSection'>
-        <video className='hero_video' autoplay="autoplay" loop="loop" muted="muted">
+        <video className='hero_video' autoPlay="autoplay" loop="loop" muted="muted">
           <source src={demo} type="video/m4v" />
           <source src={demo} type="video/ogg" />
         </video>

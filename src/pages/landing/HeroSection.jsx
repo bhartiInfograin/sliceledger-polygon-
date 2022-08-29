@@ -11,7 +11,7 @@ export default function HeroSection() {
         <>
             <section className='hero_section'>
                 <div className='hero_section_banner'>
-                    <video className='hero_video' autoplay="autoplay" loop="loop" muted="muted">
+                    <video className='hero_video' autoPlay="autoplay" loop="loop" muted="muted">
                         <source src={demo} type="video/m4v" />
                         <source src={demo} type="video/ogg" />
                     </video>

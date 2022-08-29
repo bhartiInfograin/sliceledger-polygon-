@@ -38,10 +38,10 @@ export default function LeftImageSection(props) {
                                 props.applink ?
                                     <div className='storediv'>
                                         <a href={props.applink} target="_blank">
-                                            <img className="appstoreImg" src={appstore}></img>
+                                            <img alt="appstore" className="appstoreImg" src={appstore}></img>
                                         </a>
                                         <a href={props.playstorelink} target="_blank">
-                                        <img className="playstoreImg" src={ playstore}></img>
+                                        <img  alt="playstore" className="playstoreImg" src={ playstore}></img>
                                         </a>
                                     </div>
                                     :

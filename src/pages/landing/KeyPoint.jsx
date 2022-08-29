@@ -30,7 +30,7 @@ export default function KeyPoint() {
                             <Col lg={3} md={6}>
                                 <div className='keyPoint_body'>
                                     <div className='keyPoint_box'>
-                                        <img src={ETH_Compatibilit}></img>
+                                        <img  alt="ethcompatiblit" src={ETH_Compatibilit}></img>
                                         <h5>ETH Compatibility </h5>
                                         <p>Industry dominance, established tech stack, tools, languages, standards, enterprise adoption </p>
                                     </div>
@@ -39,7 +39,7 @@ export default function KeyPoint() {
                             <Col lg={3} md={6}>
                                 <div className='keyPoint_body'>
                                     <div className='keyPoint_box'>
-                                        <img src={Scalability}></img>
+                                        <img  alt="Scalability" src={Scalability}></img>
                                         <h5>Scalability</h5>
                                         <p>Dedicated blockchains, scalable consensus algorithms, custom Wasm execution environments</p>
                                     </div>
@@ -48,7 +48,7 @@ export default function KeyPoint() {
                             <Col lg={3} md={6}>
                                 <div className='keyPoint_body'>
                                     <div className='keyPoint_box'>
-                                        <img src={Security}></img>
+                                        <img  alt="Security" src={Security}></img>
                                         <h5>Security</h5>
                                         <p>Modular ''security as a service'', provided either by Ethereum or by a pool of professional validators</p>
                                     </div>
@@ -57,7 +57,7 @@ export default function KeyPoint() {
                             <Col lg={3} md={6}>
                                 <div className='keyPoint_body'>
                                     <div className='keyPoint_box'>
-                                        <img src={Developer_Experience}></img>
+                                        <img alt="Developer_Experience" src={Developer_Experience}></img>
                                         <h5> Developer Experience </h5>
                                         <p>Equivalent to Ethereum, no protocol level knowledge required, no token deposits, fees or permissions </p>
                                     </div>

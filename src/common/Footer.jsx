@@ -82,8 +82,8 @@ export default function Footer() {
                         <Col lg={8} >
                             <div className='footer_bottom'>
                                 <p>Copyright @2022</p>|
-                                <a href='term_and_condition'>Sliceledger Terms of use</a>|
-                                <a href='#'>Privacy policy</a>
+                                <a href='/term_and_condition'>Sliceledger Terms of use</a>|
+                                <a href='/private_policy'>Privacy policy</a>
 
                             </div>
                         </Col>
