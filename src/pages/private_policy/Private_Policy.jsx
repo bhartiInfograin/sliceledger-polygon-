@@ -7,7 +7,7 @@ const Private_Policy = () => {
     return (
         <>
             <Header />
-            <HeroSection heading="Private Policy" />
+            <HeroSection heading="Privacy Policy" />
             <Container className='p-5'>
                 <Row>
                     <Col lg={12}>
@@ -125,6 +125,63 @@ const Private_Policy = () => {
                                     </li>
                                 </ol>
                             </div>
+
+                            <div>
+                                <h6>ANALYTICS</h6>
+                                <h6>Google Analytics</h6>
+                                <p>Google Analytics is a Google online analytics tool that tracks and reports on Site traffic. Google uses the information gathered to track and monitor how our Site is used. This information is made available to other Google services. Google may use the information gathered to contextualize and customize advertisements on its own advertising network.</p>
+                                <p>You can opt out of having Google Analytics track your activities on the Site by installing the Google Analytics opt-out browser add-on. The add-on blocks Google Analytics JavaScript (ga.js,analytics.js, and dc.js) from exchanging information about visit activities with Google Analytics. Please see the Google Privacy & Terms web page for additional information on Google's privacy practices: https://policies.google.com/privacy</p>
+                                <h6>Mix panel</h6>
+                                <p>Mix panel is made available by Mix panel Inc. By opting out, you may prevent Mix panel from utilizing your information for analytics reasons. To opt-out of Mix panel service, please visit this page: https://mixpanel.com/optout/ For more information on the types of information collected by Mix panel, please see the Terms of Service page at https://mixpanel.com/terms/.</p>
+                            </div>
+
+                            <div>
+                                <h6>RETENTION OF YOUR PERSONAL DATA</h6>
+                                <p>We will only keep your Personal Data for as long as it is required for the reasons outlined in this Privacy Policy. We will preserve and use your Personal Data to the extent necessary to comply with our legal duties (for example, if we are obliged by relevant laws to retain your data), settle disputes, and enforce our legal agreements and policies.
+                                    We will also save Usage Data for internal analysis. Usage Data is normally maintained for a shorter amount of time, unless it is utilized to reinforce the security or operation of Our Site, or We are legally required to retain this data for a longer period of time.
+                                </p>
+                            </div>
+
+                            <div>
+                                <h6>INTERNATIONAL TRANSFER OF YOUR PERSONAL DATA</h6>
+                                <p>Your data, including Personal Data, is processed in the operational offices and any other locations where the parties engaged in the processing are situated. Your implies that this information may be transmitted to – and stored on — systems located outside of your state, province, nation, or other governmental jurisdiction where data protection regulations differ from those in your jurisdiction.</p>
+                                <p>Your agreement to that transfer is represented by your approval to this Privacy Policy, followed by your submission of such information.</p>
+                                <p>We will take all reasonable steps to ensure that your data is treated securely and in accordance with this Privacy Policy, and no transfer of Your Personal Data to an organization or country will take place unless adequate controls, including the security of your data and other personal information, are in place.</p>
+                            </div>
+
+                            <div>
+                                <h6>DATA SECURITY</h6>
+                                <p>To safeguard your stored Personal Data from modification, partial or total loss, and unauthorized access by third parties, we employ suitable technological and organizational security measures.</p>
+                                <p>Our security measures are always being enhanced to keep up with technological advancements. Please keep in mind that no mode of Internet communication or computer storage is completely secure. While we endeavor to secure Your Personal Data using commercially reasonable techniques, we cannot guarantee its total security.</p>
+                                <p>This information does not apply to third-party websites or the links to them on our websites. For them, we accept no duty or liability.</p>
+                            </div>
+
+                            <div>
+                                <h6>YOUR RIGHTS UNDER THE GDPR</h6>
+                                <p>We commit to maintaining the confidentiality of your Personal Data and ensuring that you may exercise your rights. You have the following rights under this Privacy Policy and by law if you live in the EU:</p>
+                                <ol>
+                                    <li>File a request for access to your Personal Data: The right to view, edit, or remove the information we have on file for you. You can view, amend, or request deletion of your Personal Data directly inside your account settings area whenever feasible. If you are unable to complete the sections on your own, please contact us for assistance. This also allows you to obtain a copy of the Personal Data we have on file for you.</li>
+                                    <li>Request that we update the Personal Data that we have on file for you. You have the right to request that any incomplete or erroneous information we have on file for you be updated</li>
+                                    <li>File an objection to the processing of your Personal Data. This right exists if we rely on a legitimate interest as the legal basis for our processing and something about your specific circumstances makes you wish to object to our processing of your Personal Data on this basis. You have the right to object if we use your Personal Data for direct marketing purposes.</li>
+                                    <li>Request that your Personal Data be erased. You have the right to request that we delete or erase Personal Data where there is no compelling reason for us to keep it.</li>
+                                    <li>Request that your Personal Data be transferred. We shall transmit your Personal Data to you or a third-party you have designated in a structured, generally used, machine-readable manner. Please keep in mind that this privilege only applies to automated information that you gave us permission to use or where we utilized the information to execute a contract with you</li>
+                                    <li>Withdraw your consent. You have the right to revoke your consent to the use of your Personal Data. If you withdraw your consent, we may be unable to provide you with access to some Site functions.</li>
+                                </ol>
+
+                                <p>You can reach us at [insert email address] for the aforementioned purposes. Please keep in mind that we may request that you prove your identity before responding to such inquiries. If you submit a request, we will do our best to react as quickly as possible</p>
+                                <p>You may also file a complaint with a Data Protection Authority over our acquisition and use of your Personal Data. If you live in the European Economic Area (EEA), please contact your local data protection authority in the EEA for additional information</p>
+                            </div>
+                            <div>
+                                <h6>LINKS TO OTHER SITES</h6>
+                                <p>Our Site may contain links to sites that are not owned or controlled by us. When you click on a third-party link; you will be sent to the third-website party's. We strongly recommend that you read the Privacy Policies of any website you visit. We have no control over, and accept no responsibility for, any third-party website or services' content, privacy policies, or practices.</p>
+                            </div>
+
+                            <div>
+                                <h6>Cookie Policy</h6>
+                                <p>This Cookie Policy ("Cookie Policy") describes how cookies and similar technologies are used on the Site (including our corporate Site https://sliceledger.io/, as well as any other Site connected to you, generally referred to as the "Site").</p>
+                                <p>This Cookie Policy is an extension of, and should be read in conjunction with, the Privacy Policy ("Privacy Policy") and Terms of Use. Cookies and other monitoring technologies are used to provide a more customized experience. By continuing to use the Site, you agree to our use of cookies as well as the terms of this policy ("Cookie Policy")</p>
+                            </div>
+
 
                         </div>
 

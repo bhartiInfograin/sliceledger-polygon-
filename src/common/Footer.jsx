@@ -3,6 +3,7 @@ import { Container, Row, Col, InputGroup, Form, Button } from 'react-bootstrap'
 import { BsFacebook, BsInstagram, BsTwitter, BsGithub, BsLinkedin,BsTelegram} from 'react-icons/bs';
 import {AiOutlineArrowUp } from 'react-icons/ai';
 import {FaMediumM } from 'react-icons/fa';
+import private_policy from '../assets/document/Privacy Policy sliceledger.pdf'
 
 
 
@@ -83,7 +84,7 @@ export default function Footer() {
                             <div className='footer_bottom'>
                                 <p>Copyright @2022</p>|
                                 <a href='/term_and_condition'>Sliceledger Terms of use</a>|
-                                <a href='/private_policy'>Privacy policy</a>
+                                <a href={private_policy} target="/blank">Privacy policy</a>
 
                             </div>
                         </Col>
